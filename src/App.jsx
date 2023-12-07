@@ -16,6 +16,8 @@ function App() {
       <BestSellers />
       <NewArrivals />
       <Author />
+      <user-login />
+      <user-register />
     </>
   );
 }
