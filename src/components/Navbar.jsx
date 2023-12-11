@@ -4,6 +4,7 @@ import { PiShoppingCartSimpleBold } from "react-icons/pi";
 import { LuUser } from "react-icons/lu";
 import main_logo from "../images/main_logo.png";
 import { TbWorld } from "react-icons/tb";
+import UserLogin from "./UserLogin";
 
 const Navbar = () => {
   return (
@@ -27,15 +28,30 @@ const Navbar = () => {
         </div>
 
         <div className="icon-right">
-          <a href="#"><span className="icon"><LuUser /></span></a>
-          <a href="#"><span className="icon"><PiShoppingCartSimpleBold /></span></a>
-          <a href="#"><span className="icon"><MdOutlineLightMode /></span></a>
-          <a href="#">
-          <span className="icon"><TbWorld /></span></a>
-          </div>
-          
-          
-          
+          <button onClick={UserLogin}>
+            <span className="icon">
+              <LuUser />
+            </span>
+          </button>
+
+          <button>
+            <span className="icon">
+              <PiShoppingCartSimpleBold />
+            </span>
+          </button>
+
+          <button>
+            <span className="icon">
+              <MdOutlineLightMode />
+            </span>
+          </button>
+
+          <button>
+            <span className="icon">
+              <TbWorld />
+            </span>
+          </button>
+        </div>
       </header>
     </>
   );
