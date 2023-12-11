@@ -69,6 +69,11 @@
   /* padding: 20px 10px; */
 }
 
+.icon-right button {
+  border: none;
+  background-color: #fff;
+}
+
 /* .search-input {
   /* font-size: ; 
 } */
@@ -107,6 +112,7 @@ span {
 
 .author-title {
   margin-top: 62px;
+  margin-left: 10px;
 }
 
 .main-genre-container, .main-author-container {
@@ -124,7 +130,7 @@ span {
   border-right: white;
 }
 
-.main-author-container {
+.main-author-container .logo-and-text a img {
   border: none;
 }
 

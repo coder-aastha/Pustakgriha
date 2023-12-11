@@ -6,6 +6,8 @@ import Genres from "./components/Genres";
 import BestSellers from "./components/BestSellers";
 import NewArrivals from "./components/NewArrivals";
 import Author from "./components/Author";
+// import UserLogin from "./components/UserLogin";
+// import UserRegister from "./components/UserRegister";
 
 function App() {
   return (
@@ -16,8 +18,8 @@ function App() {
       <BestSellers />
       <NewArrivals />
       <Author />
-      <user-login />
-      <user-register />
+      {/* <UserLogin />
+      <UserRegister /> */}
     </>
   );
 }
